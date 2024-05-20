@@ -5,6 +5,7 @@ import WordAnimated from "@/components/WordAnimated";
 import CharacterAnimated from "@/components/CharacterAnimated";
 import { useEffect } from "react";
 import Lenis from 'lenis'
+import WordFadeUp from "@/components/WordFadeUp";
 
 export default function Home() {
 
@@ -29,6 +30,9 @@ export default function Home() {
       <WordAnimated text={text} />
       <div className="h-screen"></div>
       <CharacterAnimated text={text} />
+      <div className="h-screen"></div>
+      <div className="h-screen"></div>
+      <WordFadeUp text={text} />
       <div className="h-screen"></div>
     </main>
   );
